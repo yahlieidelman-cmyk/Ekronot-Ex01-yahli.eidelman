@@ -1,0 +1,108 @@
+name: Exercise-01-tests-workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  Exercise-01-tests-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Cache and Install Valgrind
+        if: ${{ !env.ACT }}
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: valgrind
+          version: 1.0
+
+      - name: Prerequisite Setup
+        run: |
+          git clone https://$GH_PAT@github.com/Cyber-Education-Center/ExerciseTests-Utils.git/ utils
+          cd utils
+          g++ printMessage.cpp -o printMessage
+          chmod +x printMessage
+          mv printMessage ..
+          mv CodesToMessages.csv ..
+          cd ..
+          rm -rf utils
+          
+          git clone https://$GH_PAT@github.com/Cyber-Education-Center/ExerciseTests-Ex01.git Ex01_CI_TESTS
+          rm -rf Ex01_CI_TESTS/.git Ex01_CI_TESTS/.github
+
+          git clone https://$GH_PAT@github.com/Cyber-Education-Center/ExerciseTests-ValgrindVarifier.git/ valgrindvarifierDIR
+          cd valgrindvarifierDIR
+          g++ ValgrindVarifier.cpp -o valgrindverifier
+          chmod +x valgrindverifier
+          mv valgrindverifier ..
+          cd ..
+          rm -rf valgrindvarifierDIR
+
+
+          cat <<EOF > results.json
+          {
+            "grades": {
+              "part1": 0,
+              "part2": 0
+            }
+          }
+          EOF
+        env:
+          GH_PAT: ${{ secrets.GIT_TOKEN }}
+
+      - name: Configure and Build with CMake
+        run: |
+          mkdir -p build
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCI_RUN=ON
+          cmake --build build --config Debug -- -j2
+
+      - name: Compile and Test Part 1 (ctest)
+        timeout-minutes: 2
+        run: |
+          cd build
+          if ctest -L part1 --output-on-failure --timeout 120; then score=40; else score=0; fi
+          cd ..
+
+          jq ".grades.part1 = $score" results.json > tmp.json && mv tmp.json results.json
+
+      - name: Memory Check Part 1
+        timeout-minutes: 2
+        run: |
+          # Ex1Part1 tests built by CMake in build/
+          timeout 120s valgrind --leak-check=yes --log-file=valgrind-out1.txt ./build/Ex1Part1_Test1
+          timeout 120s valgrind --leak-check=yes --log-file=valgrind-out2.txt ./build/Ex1Part1_Test2
+          ./valgrindverifier valgrind-out1.txt
+          ./valgrindverifier valgrind-out2.txt
+
+      - name: Compile and Test Part 2
+        timeout-minutes: 2
+        run: |
+          cd build
+          if ctest -L part2 --output-on-failure --timeout 120; then score=60; else score=0; fi
+          cd ..
+
+          jq ".grades.part2 = $score" results.json > tmp.json && mv tmp.json results.json
+
+      - name: Memory Check Part 2
+        timeout-minutes: 2
+        run: |
+          # Ex1Part2 tests built by CMake in build/
+          timeout 120s valgrind --leak-check=yes --log-file=valgrind-out21.txt ./build/Ex1Part2_Test1
+          timeout 120s valgrind --leak-check=yes --log-file=valgrind-out22.txt ./build/Ex1Part2_Test2
+          timeout 120s valgrind --leak-check=yes --log-file=valgrind-out23.txt ./build/Ex1Part2_Test3
+          ./valgrindverifier valgrind-out21.txt
+          ./valgrindverifier valgrind-out22.txt
+          ./valgrindverifier valgrind-out23.txt
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "All tests completed."
+          total=$(jq '[.grades.part1, .grades.part2] | add' results.json)
+          avg=$(jq -n "($total / 100 * 100) | round")
+          echo "Final score: $avg% ($total out of 100)"
+          echo -n "Final results.json:"; cat results.json | tr -d '\n'
