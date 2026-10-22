@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\exercise_sources.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\exercise_sources.dir\\Src\\Queue.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Src\\Queue.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Queue.cpp",
+  "output": "CMakeFiles/exercise_sources.dir/Src/Queue.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\exercise_sources.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\exercise_sources.dir\\Src\\Stack.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Src\\Stack.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Stack.cpp",
+  "output": "CMakeFiles/exercise_sources.dir/Src/Stack.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\exercise_sources.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\exercise_sources.dir\\Src\\Utils.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Src\\Utils.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Utils.cpp",
+  "output": "CMakeFiles/exercise_sources.dir/Src/Utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\exercise_sources.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\exercise_sources.dir\\Src\\LinkedList.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Src\\LinkedList.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/LinkedList.cpp",
+  "output": "CMakeFiles/exercise_sources.dir/Src/LinkedList.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\Ex1Part1_Test1.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\Ex1Part1_Test1.dir\\Tests\\Ex1Part1_Test1.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Tests\\Ex1Part1_Test1.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Tests/Ex1Part1_Test1.cpp",
+  "output": "CMakeFiles/Ex1Part1_Test1.dir/Tests/Ex1Part1_Test1.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\Ex1Part1_Test2.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\Ex1Part1_Test2.dir\\Tests\\Ex1Part1_Test2.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Tests\\Ex1Part1_Test2.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Tests/Ex1Part1_Test2.cpp",
+  "output": "CMakeFiles/Ex1Part1_Test2.dir/Tests/Ex1Part1_Test2.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\Ex1Part2_Test1.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\Ex1Part2_Test1.dir\\Tests\\Ex1Part2_Test1.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Tests\\Ex1Part2_Test1.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Tests/Ex1Part2_Test1.cpp",
+  "output": "CMakeFiles/Ex1Part2_Test1.dir/Tests/Ex1Part2_Test1.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\Ex1Part2_Test2.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\Ex1Part2_Test2.dir\\Tests\\Ex1Part2_Test2.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Tests\\Ex1Part2_Test2.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Tests/Ex1Part2_Test2.cpp",
+  "output": "CMakeFiles/Ex1Part2_Test2.dir/Tests/Ex1Part2_Test2.cpp.obj"
+},
+{
+  "directory": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build",
+  "command": "c:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\Ex1Part2_Test3.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\Ex1Part2_Test3.dir\\Tests\\Ex1Part2_Test3.cpp.obj -c C:\\Users\\admin\\Desktop\\Magshimim\\c++\\Ekronot-Ex01-yahli.eidelman\\Tests\\Ex1Part2_Test3.cpp",
+  "file": "C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Tests/Ex1Part2_Test3.cpp",
+  "output": "CMakeFiles/Ex1Part2_Test3.dir/Tests/Ex1Part2_Test3.cpp.obj"
+}
+]

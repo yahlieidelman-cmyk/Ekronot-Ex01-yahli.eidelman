@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libexercise_sources.a CMakeFiles/exercise_sources.dir/Src/Queue.cpp.obj CMakeFiles/exercise_sources.dir/Src/Stack.cpp.obj CMakeFiles/exercise_sources.dir/Src/Utils.cpp.obj CMakeFiles/exercise_sources.dir/Src/LinkedList.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libexercise_sources.a
