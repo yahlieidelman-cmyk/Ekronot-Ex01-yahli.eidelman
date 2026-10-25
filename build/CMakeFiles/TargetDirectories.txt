@@ -1,9 +1,0 @@
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/exercise_sources.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/Ex1Part1_Test1.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/Ex1Part1_Test2.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/Ex1Part2_Test1.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/Ex1Part2_Test2.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/Ex1Part2_Test3.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/test.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/edit_cache.dir
-C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/build/CMakeFiles/rebuild_cache.dir
