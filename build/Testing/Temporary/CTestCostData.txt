@@ -1,3 +1,6 @@
-Ex1Part1_Test1 0 0
+Ex1Part1_Test1 1 0.26361
+Ex1Part1_Test2 1 0.164598
+Ex1Part2_Test1 1 0.220818
+Ex1Part2_Test2 1 0.161766
+Ex1Part2_Test3 1 0.162107
 ---
-Ex1Part1_Test1

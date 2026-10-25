@@ -39,6 +39,11 @@ int dequeue(Queue *q)
         q->elements[i]=q->elements[i+1];
     }
     q->count--;
+    if(q->count==0)
+    {
+        q->empty=true;
+    }
+    return flag;
 }
 bool isEmpty(Queue *s)
 {

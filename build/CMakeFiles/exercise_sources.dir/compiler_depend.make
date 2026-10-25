@@ -449,8 +449,8 @@ CMakeFiles/exercise_sources.dir/Src/Stack.cpp.obj: C:/Users/admin/Desktop/Magshi
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/LinkedList.h \
-  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Stack.h
+  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Stack.h \
+  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/linkedList.h
 
 CMakeFiles/exercise_sources.dir/Src/Utils.cpp.obj: C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Utils.cpp \
   C:/msys64/ucrt64/include/_mingw.h \
@@ -600,7 +600,9 @@ CMakeFiles/exercise_sources.dir/Src/Utils.cpp.obj: C:/Users/admin/Desktop/Magshi
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Utils.h
+  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Stack.h \
+  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/Utils.h \
+  C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/linkedList.h
 
 
 C:/msys64/ucrt64/include/_mingw_stat64.h:
@@ -678,6 +680,8 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h:
 C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.tcc:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.h:
+
+C:/Users/admin/Desktop/Magshimim/c++/Ekronot-Ex01-yahli.eidelman/Src/linkedList.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/exception.h:
 

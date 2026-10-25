@@ -25,11 +25,43 @@
 	ProcessorClockFrequency="1400.000000"
 	>
 	<Testing>
-		<StartDateTime>Oct 25 10:09 [NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xF2][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEF] [NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xEC] [NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xED]</StartDateTime>
-		<StartTestTime>1792915763</StartTestTime>
-		<TestList/>
-		<EndDateTime>Oct 25 10:09 [NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xF2][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEF] [NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xEC] [NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xED]</EndDateTime>
-		<EndTestTime>1792915763</EndTestTime>
+		<StartDateTime>Oct 25 16:03 [NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xF2][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEF] [NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xEC] [NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xED]</StartDateTime>
+		<StartTestTime>1792937010</StartTestTime>
+		<TestList>
+			<Test>./Ex1Part2_Test3</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Ex1Part2_Test3</Name>
+			<Path>.</Path>
+			<FullName>./Ex1Part2_Test3</FullName>
+			<FullCommandLine>C:\Users\admin\Desktop\Magshimim\c++\Ekronot-Ex01-yahli.eidelman\build\Ex1Part2_Test3.exe</FullCommandLine>
+			<StartTestTime>1792937010.363362</StartTestTime>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.162107</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\admin\Desktop\Magshimim\c++\Ekronot-Ex01-yahli.eidelman\build\Ex1Part2_Test3.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJx9j8EKwjAQRM/uL/QyRy2xNFVE8OgPiOipeAg0SMBG2aSCf+8mxmsXctg3s8OkrmeHLjZEbLHGFN0j0Ly7JgId2Zro/B2G2XzQNA36TmGrsFPYK+hWngAtRAvSwrr2RnQN6Yrt23KwyxWevkQYP+DFzudUF1MinSfv05r7JbKoen3YdGMGJxOCHaq+HaUQFQWlvaic/pSdunjx0/4nX+lsQ6g=</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>part2</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Oct 25 16:03 [NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xF2][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xEF] [NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE2][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xEC] [NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xF8][NON-UTF-8-BYTE-0xE5][NON-UTF-8-BYTE-0xF9][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE9][NON-UTF-8-BYTE-0xED]</EndDateTime>
+		<EndTestTime>1792937010</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
